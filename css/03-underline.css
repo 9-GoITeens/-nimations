@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.menu-link {
+    outline: 1px solid black;
+
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: currentColor;
+}
